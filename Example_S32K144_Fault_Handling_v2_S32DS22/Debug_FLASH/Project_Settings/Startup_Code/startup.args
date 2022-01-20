@@ -1,0 +1,12 @@
+-DCPU_S32K144HFT0VLLT
+-I"C:/Users/Administrator/Desktop/Example_S32K144_Fault_Handling_v2_S32DS22/include"
+-O0
+-g3
+-Wall
+-c
+-fmessage-length=0
+-ffunction-sections
+-fdata-sections
+-mcpu=cortex-m4
+-specs=nosys.specs
+--sysroot="D:/NXP/S32DS_ARM_v2018.R1/Cross_Tools/gcc-6.3-arm32-eabi/arm-none-eabi/newlib"
