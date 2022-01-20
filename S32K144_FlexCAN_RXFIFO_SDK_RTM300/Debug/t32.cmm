@@ -1,0 +1,17 @@
+SYStem.RESet
+SYStem.CPU S32k144
+SYStem.UP
+
+DO ~~/demo/arm/flash/s32k CPU=S32K144 PREPAREONLY
+
+FLASH.ReProgram ALL /Erase
+DATA.LOAD.ELF "*.elf"
+FLASH.ReProgram off
+
+data.list
+GO main
+WAIT !RUN()
+
+ENDDO
+
+
